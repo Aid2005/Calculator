@@ -1,0 +1,92 @@
+body {/* Body of the page */
+    margin: 0;
+    background-color: rgb(41, 47, 132);
+}
+
+.calculator {/* Calculator container */
+    background-color: rgb(41, 44, 46);
+    height: 450px;
+    width: 300px;
+    margin-left: 40%;
+    margin-top: 5%;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.screen {/* Calculator screen */
+    background-color: black;
+    height: 90px;
+    padding: 6px;
+    width: 290px;
+    margin-top: 3px;
+    margin: 0 auto;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.screen h1 {/* Text on the display */
+    color: white;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.buttons {/* Container for all buttons */
+    display: flex;
+    padding-top: 15px;
+    gap: 10px;
+}
+
+h1 {/* Style for numbers/text inside buttons */
+    margin: 0;
+    font-size: 20px;
+}
+
+.button-number {/* Most number buttons */
+    width: 70px;
+    height: 50px;
+    background-color: rgb(87, 85, 84);
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button-clear {/* Clear buttons (AC, DEL) */
+    width: 70px;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button-operator {/* Operator buttons (+, -, *, /, %) */
+    width: 70px;
+    height: 50px;
+    background-color: rgb(235, 159, 8);
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button-result {/* Equals button */
+    width: 70px;
+    height: 50px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stil.css">
+    <title>Calculator</title>
+    <link rel="icon" href="kalkulator.icon.png">
+</head>
+
+<body>
+
+    <!-- Calculator container -->
+    <div class="calculator">
+
+        <!-- Calculator display -->
+       <div class="screen">
+            <h1 id="display">0</h1>   
+       </div> 
+
+       <!-- Calculator buttons -->
+       <div class="buttons">
+        <!-- First row of buttons -->
+
+            <div onclick="ClearAll()" class="button-clear">
+                <h1>AC</h1>
+            </div>
+
+            <div onclick="ClearEntry()" class="button-clear">
+                <h1>DEL</h1>
+            </div>
+
+            <div onclick="AddOperator('%')" class="button-operator">
+                <h1>%</h1>
+            </div>
+
+            <div onclick="AddOperator('+')" class="button-operator">
+                <h1>+</h1>
+            </div>
+
+       </div>
+
+       <div class="buttons">
+        <!-- Second row of buttons -->
+
+            <div onclick="ClickNumber(7)" class="button-number">
+                <h1>7</h1>
+            </div>
+
+            <div onclick="ClickNumber(8)" class="button-number">
+                <h1>8</h1>
+            </div>
+
+            <div onclick="ClickNumber(9)" class="button-number">
+                <h1>9</h1>
+            </div>
+
+            <div onclick="AddOperator('-')" class="button-operator">
+                <h1>-</h1>
+            </div>
+
+       </div>
+
+       <div class="buttons">
+        <!-- Third row of buttons -->
+
+            <div onclick="ClickNumber(4)" class="button-number">
+                <h1>4</h1>
+            </div>
+
+            <div onclick="ClickNumber(5)" class="button-number">
+                <h1>5</h1>
+            </div>
+
+            <div onclick="ClickNumber(6)" class="button-number">
+                <h1>6</h1>
+            </div>
+
+            <div onclick="AddOperator('*')" class="button-operator">
+                <h1>x</h1>
+            </div>
+
+       </div>
+
+       <div class="buttons">
+        <!-- Fourth row of buttons -->
+
+            <div onclick="ClickNumber(1)" class="button-number">
+                <h1>1</h1>
+            </div>
+
+            <div onclick="ClickNumber(2)" class="button-number">
+                <h1>2</h1>
+            </div>
+
+            <div onclick="ClickNumber(3)" class="button-number">
+                <h1>3</h1>
+            </div>
+
+            <div onclick="AddOperator('/')" class="button-operator">
+                <h1>/</h1>
+            </div>
+
+       </div>
+
+       <div class="buttons">
+        <!-- Fifth row of buttons -->
+
+            <div onclick="ClickNumber('.')" class="button-number">
+                <h1>.</h1>
+            </div>
+
+            <div onclick="ClickNumber(0)" class="button-number">
+                <h1>0</h1>
+            </div>
+
+            <div onclick="ClickNumber(',')" class="button-number">
+                <h1>,</h1>
+            </div>
+
+            <div onclick="Calculate()" class="button-result">
+                <h1>=</h1>
+            </div>
+
+       </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
